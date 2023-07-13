@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    
+    
+}
+body{
+  background-image: url("https://i.ibb.co/zQVCKQM/arthur-hinton-9-Y1i-OQ4rvtw-unsplash.jpg" );
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  
+  
+}
+.cont{
+    width: 500px;
+    margin: 52px auto 0;
+  border-radius: 10px;
+  
+  display: flex;
+   flex-direction: column;
+  justify-content: center;
+  
+  
+}
+.cont{
+  
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+
+}
+h1, label{
+  color:#fff;
+}
+
+h2{
+  font-size: 50px;
+  color: #fff;
+}
+form {
+  width: 300px; /* Ajuste a largura do formulário conforme necessário */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px; /* Espaçamento inferior entre as etiquetas */
+}
+
+input[type="email"],
+input[type="password"] {
+  
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px; /* Espaçamento inferior entre os campos */
+  border: 1px solid #ccc; /* Borda dos campos */
+  border-radius: 4px; /* Borda arredondada dos campos */
+}
+
+input[type="submit"] {
+  background-color: #8b63da;
+  color:#fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
